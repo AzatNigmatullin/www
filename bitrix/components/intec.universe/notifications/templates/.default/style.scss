@@ -1,0 +1,117 @@
+.notification.notification-default {
+  display: none;
+  position: fixed;
+  z-index: 21;
+  align-items: center;
+  inset: auto 32px 32px 32px;
+
+  &.slim {
+    max-width: 650px;
+  }
+
+  .disabled {
+    pointer-events: none;
+    color: #808080;
+  }
+
+  a,
+  svg {
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    width: unset;
+    right: 32px;
+    left: 32px;
+    bottom: 64px;
+    align-items: flex-start;
+
+    .notification-content {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .notification-description {
+      margin-right: 32px;
+      margin-bottom: 24px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    width: 100%;
+    right: 0;
+    left: 0;
+    padding: 0;
+  }
+
+  .notification-content {
+    font-size: 14px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px 0 rgba(34, 60, 80, 0.2);
+    -webkit-box-shadow: 0 2px 8px 0 rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0 2px 8px 0 rgba(34, 60, 80, 0.2);
+
+    &:not(.slim) {
+      display: flex;
+      padding: 24px;
+
+      @media (max-width: 500px) {
+        align-items: center;
+      }
+    }
+
+    &.slim {
+      padding: 40px;
+      display: block;
+
+      @media (max-width: 350px) {
+        padding: 25px 8px;
+      }
+    }
+  }
+
+  .notification-text-wrapper {
+    gap: 16px;
+  }
+
+  .notification-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+
+  .notification-description {
+    color: #808080;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+
+    &:not(.slim) {
+      margin-right: 40px;
+
+      @media (max-width: 500px) {
+        margin-right: 0;
+      }
+    }
+
+    &.slim {
+      margin-bottom: 24px;
+    }
+  }
+
+  .notification-button-wrapper {
+    display: flex;
+    flex-shrink: 0;
+    gap: 24px;
+
+    @media (max-width: 350px) {
+      gap: 0;
+      justify-content: space-between;
+    }
+  }
+
+  .notification-button {
+    border-width: 1px;
+  }
+}
