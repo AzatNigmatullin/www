@@ -1,0 +1,483 @@
+.intec-cl-text {
+  color: #116afc !important;
+}
+
+.intec-cl-text-active:active {
+  color: #116afc !important;
+}
+
+.intec-cl-text-active.active {
+  color: #116afc !important;
+}
+
+.intec-cl-text-focus:focus {
+  color: #116afc !important;
+}
+
+.intec-cl-text-hover:hover {
+  color: #116afc !important;
+}
+
+.intec-cl-background {
+  background-color: #116afc !important;
+  fill: #116afc !important;
+}
+
+.intec-cl-background-active:active {
+  background-color: #116afc !important;
+  fill: #116afc !important;
+}
+
+.intec-cl-background-focus:focus {
+  background-color: #116afc !important;
+  fill: #116afc !important;
+}
+
+.intec-cl-background-hover:hover {
+  background-color: #116afc !important;
+  fill: #116afc !important;
+}
+
+.intec-cl-background-dark {
+  background-color: #0353d7 !important;
+  fill: #0353d7 !important;
+}
+
+.intec-cl-background-dark-active:active {
+  background-color: #0353d7 !important;
+  fill: #0353d7 !important;
+}
+
+.intec-cl-background-dark-focus:focus {
+  background-color: #0353d7 !important;
+  fill: #0353d7 !important;
+}
+
+.intec-cl-background-dark-hover:hover {
+  background-color: #0353d7 !important;
+  fill: #0353d7 !important;
+}
+
+.intec-cl-background-light {
+  background-color: #438afd !important;
+  fill: #438afd !important;
+}
+
+.intec-cl-background-light-active:active {
+  background-color: #438afd !important;
+  fill: #438afd !important;
+}
+
+.intec-cl-background-light-focus:focus {
+  background-color: #438afd !important;
+  fill: #438afd !important;
+}
+
+.intec-cl-background-light-hover:hover {
+  background-color: #438afd !important;
+  fill: #438afd !important;
+}
+
+.intec-cl-background-light-40 {
+  background-color: #dae8ff !important;
+  fill: #dae8ff !important;
+}
+
+.intec-cl-background-light-40-active:active {
+  background-color: #dae8ff !important;
+  fill: #dae8ff !important;
+}
+
+.intec-cl-background-light-40-focus:focus {
+  background-color: #dae8ff !important;
+  fill: #dae8ff !important;
+}
+
+.intec-cl-background-light-40-hover:hover {
+  background-color: #dae8ff !important;
+  fill: #dae8ff !important;
+}
+
+.intec-cl-border {
+  border-color: #116afc !important;
+}
+
+.intec-cl-border-light {
+  border-color: #438afd !important;
+}
+
+.intec-cl-border-active:active {
+  border-color: #116afc !important;
+}
+
+.intec-cl-border-focus:focus {
+  border-color: #116afc !important;
+}
+
+.intec-cl-border-hover:hover {
+  border-color: #116afc !important;
+}
+
+.intec-cl-border-light-hover:hover {
+  border-color: #438afd !important;
+}
+
+.intec-cl-text-light {
+  color: #438afd !important;
+}
+
+.intec-cl-text-light-active:active {
+  color: #438afd !important;
+}
+
+.intec-cl-text-light-focus:focus {
+  color: #438afd !important;
+}
+
+.intec-cl-text-light-hover:hover {
+  color: #438afd !important;
+}
+
+.intec-cl-text-dark {
+  color: #0353d7 !important;
+}
+
+.intec-cl-text-dark-active:active {
+  color: #0353d7 !important;
+}
+
+.intec-cl-text-dark-focus:focus {
+  color: #0353d7 !important;
+}
+
+.intec-cl-text-dark-hover:hover {
+  color: #0353d7 !important;
+}
+
+.intec-cl-background-light {
+  background-color: #438afd !important;
+  fill: #438afd !important;
+}
+
+.intec-cl-background-light-active:active {
+  background-color: #438afd !important;
+}
+
+.intec-cl-background-light-focus:focus {
+  background-color: #438afd !important;
+}
+
+.intec-cl-background-light-hover:hover {
+  background-color: #438afd !important;
+}
+
+.intec-cl-svg svg {
+  fill: #116afc !important;
+  stroke: #116afc !important;
+}
+
+.intec-cl-svg-path-fill svg path {
+  fill: #116afc !important;
+}
+
+.intec-cl-svg-path-fill-hover:hover svg path {
+  fill: #116afc !important;
+}
+
+.intec-cl-svg-rect-fill-hover:hover svg rect {
+  fill: #116afc !important;
+}
+
+.intec-cl-svg-path-stroke svg path,
+.intec-cl-svg-rect-stroke svg rect {
+  stroke: #116afc !important;
+}
+
+.intec-cl-svg-path-stroke-hover:hover svg path {
+  stroke: #116afc !important;
+}
+
+.intec-content {
+  max-width: 1240px;
+}
+
+.intec-content .intec-content.intec-content-primary {
+  max-width: 1240px;
+}
+
+html {
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+}
+
+.intec-template .intec-template-part.intec-template-part-title,
+.intec-template .widget .widget-header .widget-title {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .intec-template .intec-template-part.intec-template-part-title,
+.intec-template .widget .widget-header .widget-title {
+    font-size: 20px;
+  }
+}
+.intec-image-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.intec-image-effect::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.intec-image-effect:hover::before {
+  -webkit-animation: intec-image-effect-circle 750ms;
+  animation: intec-image-effect-circle 750ms;
+}
+
+@-webkit-keyframes intec-image-effect-circle {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+}
+@keyframes intec-image-effect-circle {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+}
+.intec-ui.intec-ui-control-alert.intec-ui-scheme-current {
+  color: #116afc;
+  background-color: #ebf2ff;
+  border-color: #d7e6fe;
+}
+
+.intec-ui.intec-ui-control-button.intec-ui-scheme-current {
+  border-color: #116afc;
+  background-color: #116afc;
+  color: #fff;
+}
+.intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-mod-transparent {
+  background-color: transparent;
+  color: #116afc;
+}
+.intec-ui.intec-ui-control-button.intec-ui-scheme-current:hover, .intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-state-hover, .intec-ui.intec-ui-control-button.intec-ui-scheme-current[data-ui-state=hover] {
+  border-color: #438afd;
+  background-color: #438afd;
+  color: #fff;
+}
+.intec-ui.intec-ui-control-button.intec-ui-scheme-current:focus, .intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-state-focus, .intec-ui.intec-ui-control-button.intec-ui-scheme-current[data-ui-state=focus] {
+  border-color: #438afd;
+  background-color: #438afd;
+  color: #fff;
+}
+.intec-ui.intec-ui-control-button.intec-ui-scheme-current:active, .intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-state-active, .intec-ui.intec-ui-control-button.intec-ui-scheme-current[data-ui-state=active] {
+  border-color: #0353d7;
+  background-color: #0353d7;
+  color: #fff;
+}
+.intec-ui.intec-ui-control-button.intec-ui-scheme-current:disabled, .intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-state-disabled, .intec-ui.intec-ui-control-button.intec-ui-scheme-current[data-ui-state=disabled] {
+  border-color: #0240a5;
+  background-color: #0240a5;
+  color: #fff;
+}
+.intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-mod-link {
+  color: #5f5f5f;
+  border-color: transparent;
+  background-color: transparent;
+}
+.intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-mod-link:hover, .intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-mod-link.intec-ui-state-hover, .intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-mod-link[data-ui-state=hover] {
+  color: #438afd;
+}
+.intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-mod-link:focus, .intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-mod-link.intec-ui-state-focus, .intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-mod-link[data-ui-state=focus] {
+  color: #438afd;
+}
+.intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-mod-link:active, .intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-mod-link.intec-ui-state-active, .intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-mod-link[data-ui-state=active] {
+  color: #0353d7;
+}
+.intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-mod-link:disabled, .intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-mod-link.intec-ui-state-disabled, .intec-ui.intec-ui-control-button.intec-ui-scheme-current.intec-ui-mod-link[data-ui-state=disabled] {
+  color: #9f9f9f;
+}
+
+.intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current .intec-ui-part-selector:before,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current .intec-ui-part-selector:before {
+  background-color: #fff;
+  color: #fff;
+}
+.intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current input:checked + .intec-ui-part-selector, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-checked .intec-ui-part-selector, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=checked] .intec-ui-part-selector,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current input:checked + .intec-ui-part-selector,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-checked .intec-ui-part-selector,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=checked] .intec-ui-part-selector {
+  border-color: #116afc;
+  background-color: #116afc;
+}
+.intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current input:checked + .intec-ui-part-selector:before, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-checked .intec-ui-part-selector:before, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=checked] .intec-ui-part-selector:before,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current input:checked + .intec-ui-part-selector:before,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-checked .intec-ui-part-selector:before,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=checked] .intec-ui-part-selector:before {
+  background-color: #fff;
+  color: #fff;
+}
+.intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current:hover .intec-ui-part-selector, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-hover .intec-ui-part-selector, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=hover] .intec-ui-part-selector,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current:hover .intec-ui-part-selector,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-hover .intec-ui-part-selector,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=hover] .intec-ui-part-selector {
+  border-color: #438afd;
+  background-color: #f6f6f6;
+}
+.intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current:hover .intec-ui-part-selector:before, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-hover .intec-ui-part-selector:before, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=hover] .intec-ui-part-selector:before,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current:hover .intec-ui-part-selector:before,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-hover .intec-ui-part-selector:before,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=hover] .intec-ui-part-selector:before {
+  background-color: #fff;
+  color: #fff;
+}
+.intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current input:focus:not(:checked) + .intec-ui-part-selector, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-focus .intec-ui-part-selector, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=focus] .intec-ui-part-selector,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current input:focus:not(:checked) + .intec-ui-part-selector,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-focus .intec-ui-part-selector,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=focus] .intec-ui-part-selector {
+  border-color: #438afd;
+  background-color: #f6f6f6;
+}
+.intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current input:focus:not(:checked) + .intec-ui-part-selector:before, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-focus .intec-ui-part-selector:before, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=focus] .intec-ui-part-selector:before,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current input:focus:not(:checked) + .intec-ui-part-selector:before,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-focus .intec-ui-part-selector:before,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=focus] .intec-ui-part-selector:before {
+  background-color: #fff;
+  color: #fff;
+}
+.intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current:active .intec-ui-part-selector, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-active .intec-ui-part-selector, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=active] .intec-ui-part-selector,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current:active .intec-ui-part-selector,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-active .intec-ui-part-selector,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=active] .intec-ui-part-selector {
+  border-color: #0353d7;
+  background-color: #0353d7;
+}
+.intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current:active .intec-ui-part-selector:before, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-active .intec-ui-part-selector:before, .intec-ui.intec-ui-control-checkbox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=active] .intec-ui-part-selector:before,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current:active .intec-ui-part-selector:before,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-active .intec-ui-part-selector:before,
+.intec-ui.intec-ui-control-radiobox.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=active] .intec-ui-part-selector:before {
+  background-color: #fff;
+  color: #fff;
+}
+
+.intec-ui.intec-ui-control-switch.intec-ui-scheme-current.intec-ui-scheme-current input:checked + .intec-ui-part-selector, .intec-ui.intec-ui-control-switch.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-checked .intec-ui-part-selector, .intec-ui.intec-ui-control-switch.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=checked] .intec-ui-part-selector {
+  border-color: #116afc;
+  background-color: #116afc;
+}
+.intec-ui.intec-ui-control-switch.intec-ui-scheme-current.intec-ui-scheme-current input:checked + .intec-ui-part-selector:before, .intec-ui.intec-ui-control-switch.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-checked .intec-ui-part-selector:before, .intec-ui.intec-ui-control-switch.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=checked] .intec-ui-part-selector:before {
+  background-color: #fff;
+  color: #fff;
+}
+.intec-ui.intec-ui-control-switch.intec-ui-scheme-current.intec-ui-scheme-current:active .intec-ui-part-selector, .intec-ui.intec-ui-control-switch.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-active .intec-ui-part-selector, .intec-ui.intec-ui-control-switch.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=active] .intec-ui-part-selector {
+  border-color: #0353d7;
+  background-color: #0353d7;
+}
+.intec-ui.intec-ui-control-switch.intec-ui-scheme-current.intec-ui-scheme-current:active .intec-ui-part-selector:before, .intec-ui.intec-ui-control-switch.intec-ui-scheme-current.intec-ui-scheme-current.intec-ui-state-active .intec-ui-part-selector:before, .intec-ui.intec-ui-control-switch.intec-ui-scheme-current.intec-ui-scheme-current[data-ui-state=active] .intec-ui-part-selector:before {
+  background-color: #fff;
+  color: #fff;
+}
+
+.intec-ui.intec-ui-control-numeric.intec-ui-scheme-current .intec-ui-part-increment:hover,
+.intec-ui.intec-ui-control-numeric.intec-ui-scheme-current .intec-ui-part-decrement:hover {
+  color: #116afc !important;
+}
+
+.intec-ui.intec-ui-control-tabs.intec-ui-scheme-current .intec-ui-part-tab:hover,
+.intec-ui.intec-ui-control-tabs.intec-ui-scheme-current .intec-ui-part-tab[data-active=true] {
+  border-color: #116afc;
+}
+
+.intec-ui.intec-ui-control-tabs.intec-ui-view-1.intec-ui-scheme-current .intec-ui-part-tab[data-active=true] {
+  color: #116afc;
+}
+
+.intec-ui.intec-ui-control-tabs.intec-ui-view-1.intec-ui-scheme-current .intec-ui-part-tab[data-active=true] *:after {
+  background-color: #116afc;
+}
+
+.intec-ui.intec-ui-control-tabs.intec-ui-view-2.intec-ui-scheme-current .intec-ui-part-tab:hover,
+.intec-ui.intec-ui-control-tabs.intec-ui-view-2.intec-ui-scheme-current .intec-ui-part-tab[data-active=true] {
+  background-color: #116afc;
+}
+
+.intec-ui.intec-ui-control-tabs.intec-ui-view-2.intec-ui-scheme-current .intec-ui-part-tab[data-active=true] {
+  -webkit-box-shadow: 0 6px 18px rgba(17, 106, 252, 0.42);
+  -moz-box-shadow: 0 6px 18px rgba(17, 106, 252, 0.42);
+  box-shadow: 0 6px 18px rgba(17, 106, 252, 0.42);
+}
+
+.intec-ui-markup-text,
+[data-ui-markup=text] {
+  font-size: 14px;
+}
+
+a, [data-ui-markup=a],
+.intec-ui-markup-a {
+  color: #116afc;
+}
+a:hover, a:focus, [data-ui-markup=a]:hover, [data-ui-markup=a]:focus,
+.intec-ui-markup-a:hover,
+.intec-ui-markup-a:focus {
+  color: #438afd;
+}
+a:hover.intec-ui-mod-dashed, a:hover.intec-ui-mod-dotted, a:focus.intec-ui-mod-dashed, a:focus.intec-ui-mod-dotted, [data-ui-markup=a]:hover.intec-ui-mod-dashed, [data-ui-markup=a]:hover.intec-ui-mod-dotted, [data-ui-markup=a]:focus.intec-ui-mod-dashed, [data-ui-markup=a]:focus.intec-ui-mod-dotted,
+.intec-ui-markup-a:hover.intec-ui-mod-dashed,
+.intec-ui-markup-a:hover.intec-ui-mod-dotted,
+.intec-ui-markup-a:focus.intec-ui-mod-dashed,
+.intec-ui-markup-a:focus.intec-ui-mod-dotted {
+  border-color: #438afd;
+}
+a:active, [data-ui-markup=a]:active,
+.intec-ui-markup-a:active {
+  color: #0353d7;
+}
+a:active.intec-ui-mod-dashed, a:active.intec-ui-mod-dotted, [data-ui-markup=a]:active.intec-ui-mod-dashed, [data-ui-markup=a]:active.intec-ui-mod-dotted,
+.intec-ui-markup-a:active.intec-ui-mod-dashed,
+.intec-ui-markup-a:active.intec-ui-mod-dotted {
+  border-color: #0353d7;
+}
+
+blockquote:before, [data-ui-markup=blockquote]:before,
+.intec-ui-markup-blockquote:before {
+  background-color: #116afc;
+}
+
+ul > li:before, [data-ui-markup=ul] > [data-ui-markup=li]:before,
+.intec-ui-markup-ul > .intec-ui-markup-li:before {
+  color: #116afc;
+}
+
+ol > li:before, [data-ui-markup=ol] > [data-ui-markup=li]:before,
+.intec-ui-markup-ol > .intec-ui-markup-li:before {
+  color: #116afc;
+}
+
+/*# sourceMappingURL=scheme.css.map */
