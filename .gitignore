@@ -1,0 +1,98 @@
+#region bitrix-vm files
+bitrix/*
+# файл с лицензионным ключом;
+!bitrix/license_key.php
+# шаблоны
+!bitrix/templates/
+# не стандартные компоненты
+!bitrix/components/
+bitrix/components/bitrix/
+# php_interface за исключением данных подключения к базе
+!bitrix/php_interface/
+bitrix/php_interface/dbconn.php
+# кастомные активити (b24 коробка)
+!bitrix/activities/
+bitrix/activities/bitrix
+# кастомные Гаджеты для главной страницы админки
+!bitrix/gadgets
+bitrix/gadgets/bitrix
+# Точка входа в новый роутинг
+!bitrix/routes
+# битровый composer для merge-plugin
+!bitrix/composer-bx.json
+!bitrix/composer.json.example
+# Дополнительный файл настроек системы
+!bitrix/.settings_extra.php
+
+upload/
+upload
+#endregion
+
+#sunweb files
+local/logs
+local/in.php
+local/vendor
+
+#ide
+.idea
+.vscode
+.DStore
+.history
+.DS_Store
+Thumbs.db
+nbproject
+.htaccess
+.htsecure
+.secure
+robots.txt
+*sitemap*.xml
+*node_modules/*
+**/node_modules
+
+# other files
+*.log
+*.tar
+*.gz
+*.sql
+*.zip
+*.gzip
+*.tgz
+*.gz.[0-9]
+*.mp3
+*.mp4
+*.exe
+*.db
+*.csv
+*.xml
+*.psd
+*.[oa]
+*.pdf
+*~
+*.rar
+*.webm
+*.mov
+*.MOV
+*.wav
+*.flv
+*.doc
+*.docx
+*.txt
+*.tbk
+
+#gitlab files
+.gitlab-ci.yml
+
+#other bad files 
+phpinfo.php
+test.php
+
+google*.html
+yandex*.html
+
+#ignore auto minified files (при условии наличия таких скриптов автоматизации)
+#local/**/*.min.js
+#local/**/*.min.css
+
+#project specific files
+awstats
+cgi-bin
